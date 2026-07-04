@@ -1,0 +1,24 @@
+Karan Verma
+karan.verma@example.com | +91-9090909090 | linkedin.com/in/karanverma
+
+SUMMARY
+DevOps Engineer with 6 years of experience managing cloud infrastructure and CI/CD pipelines at scale.
+
+EDUCATION
+B.Sc Information Technology, Pune University, 2017
+
+EXPERIENCE
+Senior DevOps Engineer, Wipro, Hyderabad (Mar 2020 - Present)
+- Managed AWS infrastructure (EC2, S3, Lambda, CloudFormation) for 50+ microservices.
+- Kubernetes deployment pipelines reducing deployment time by 60%.
+- Infrastructure automation with Terraform and Ansible.
+
+DevOps Engineer, Tech Mahindra, Hyderabad (Jun 2018 – Feb 2020)
+- Jenkins CI/CD pipelines for 20+ microservices.
+- Managed Linux servers and Docker containers.
+
+SKILLS
+AWS, Azure, Docker, Kubernetes, Terraform, Ansible, Jenkins, Linux, Bash, Python, Git, CI/CD, Nginx, PostgreSQL, Redis, Microservices
+
+PROJECTS
+Infrastructure Automation Suite: Terraform + Ansible deployment automation for multi-region AWS.

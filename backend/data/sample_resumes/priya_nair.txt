@@ -1,0 +1,23 @@
+Priya Nair
+priya.nair@example.com | +91-9988776655 | github.com/priyanair
+
+PROFILE
+Recent B.Tech graduate with strong foundation in machine learning and statistics. Eager to start career as Data Scientist.
+
+EDUCATION
+B.Tech Computer Science, VIT Vellore, 2024
+
+EXPERIENCE
+Data Science Intern, Zoho Corporation (Jan 2024 – Jun 2024)
+- Built sentiment analysis model using NLTK and Scikit-learn on customer reviews, 88% accuracy.
+- Created data visualizations with Matplotlib and Seaborn for weekly stakeholder reports.
+
+SKILLS
+Python, R, SQL, Machine Learning, Statistics, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, NLTK, Jupyter, Excel, Power BI
+
+PROJECTS
+Movie Recommendation: Content-based engine using cosine similarity on movie metadata.
+Student Performance Predictor: Linear regression model with Pandas and Scikit-learn.
+
+CERTIFICATIONS
+Machine Learning by Andrew Ng, Coursera

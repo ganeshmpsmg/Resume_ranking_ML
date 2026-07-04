@@ -1,0 +1,59 @@
+# ── Web framework ─────────────────────────────
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.20
+python-dotenv>=1.0.1
+orjson>=3.10.16
+
+# ── Data validation ───────────────────────────
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# ── Database ──────────────────────────────────
+sqlalchemy>=2.0.30
+alembic>=1.13.0
+psycopg2-binary>=2.9.10
+
+# ── Cache ─────────────────────────────────────
+redis>=5.2.1
+
+# ── ML / NLP core ─────────────────────────────
+sentence-transformers>=3.4.1
+transformers>=4.50.0
+torch>=2.7.0
+scikit-learn>=1.6.1
+numpy>=2.2.0
+scipy>=1.15.0
+
+# ── Vector DB ────────────────────────────────
+chromadb==0.5.23
+
+# ── Hybrid keyword search ────────────────────
+rank-bm25>=0.2.2
+
+# ── LLM / LangChain (bonus feedback feature) ─
+openai>=1.68.2
+tiktoken>=0.9.0
+langchain>=0.3.25
+langchain-community>=0.3.25
+langchain-text-splitters>=0.3.8
+
+# ── Resume parsing ────────────────────────────
+PyMuPDF>=1.24.0
+pdfplumber>=0.11.5
+pypdf>=5.4.0
+python-docx>=1.1.0
+
+# ── NLP utilities ────────────────────────────
+spacy>=3.8.4
+nltk>=3.9.1
+langdetect>=1.0.9
+
+# ── HTTP / async ─────────────────────────────
+requests>=2.32.3
+httpx>=0.28.1
+tenacity>=9.0.0
+
+# ── Monitoring / logging ──────────────────────
+prometheus-client>=0.21.1
+python-json-logger>=3.3.0

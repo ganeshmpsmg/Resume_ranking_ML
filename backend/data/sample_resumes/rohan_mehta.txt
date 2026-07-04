@@ -1,0 +1,21 @@
+Rohan Mehta
+rohan.mehta@example.com | 9123456780
+
+OBJECTIVE
+Full Stack Developer with 3 years of experience in scalable web applications, looking to transition into data-driven roles.
+
+EDUCATION
+B.E. Information Technology, Mumbai University, 2021
+
+EXPERIENCE
+Software Engineer, Tech Mahindra, Pune (Aug 2021 - Present)
+- Developed REST APIs using Node.js and Express serving 500K+ daily users.
+- Built React dashboards for internal analytics.
+- MySQL and MongoDB for backend data storage; Docker and Jenkins for CI/CD.
+
+SKILLS
+JavaScript, TypeScript, Java, Node.js, React, HTML, CSS, MySQL, MongoDB, Docker, Jenkins, Git, REST API, Python, Pandas
+
+PROJECTS
+E-commerce Platform: Full-stack React + Node.js + MongoDB with payment gateway.
+Portfolio Analyzer: Python/Pandas script to analyze stock portfolio performance.

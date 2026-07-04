@@ -1,0 +1,33 @@
+Vikram Iyer
+vikram.iyer@example.com | +91-9876501234 | linkedin.com/in/vikramiyer | github.com/vikramiyer
+
+SUMMARY
+Senior Machine Learning Engineer with 7 years of experience in large-scale NLP and recommendation systems. PhD in Computer Science, IISc Bangalore. Published researcher in transformer architectures.
+
+EDUCATION
+PhD Computer Science, IISc Bangalore, 2019
+M.Tech Computer Science, IIT Madras, 2015
+
+EXPERIENCE
+Lead ML Engineer, Google, Bangalore (Jan 2020 - Present)
+- Architected semantic search platform with BERT embeddings and FAISS handling 50M+ queries/day, sub-100ms latency.
+- Led research on transformer ranking models; 2 papers published at ACL and EMNLP.
+- Mentored 6 ML engineers and data scientists.
+
+ML Researcher, Amazon, Bangalore (Jul 2017 - Dec 2019)
+- Built deep learning recommendation models with TensorFlow improving CTR by 18%.
+- Designed A/B testing framework for ranking model evaluation.
+
+SKILLS
+Python, Machine Learning, Deep Learning, NLP, Computer Vision, Reinforcement Learning,
+TensorFlow, PyTorch, Keras, Scikit-learn, Hugging Face, Transformers, BERT, GPT,
+Sentence Transformers, FAISS, LangChain, RAG, AWS, GCP, Docker, Kubernetes,
+SQL, MongoDB, Spark, Airflow, Pandas, NumPy, Matplotlib, Plotly
+
+PROJECTS
+Semantic Search Engine: Production system with Sentence-BERT + FAISS serving real-time recommendations.
+Generative AI Resume Assistant: LLM feedback tool using OpenAI API and LangChain.
+
+PUBLICATIONS
+"Efficient Transformer Architectures for Large-Scale Retrieval" – ACL 2021
+"Contrastive Learning for Semantic Search" – EMNLP 2020

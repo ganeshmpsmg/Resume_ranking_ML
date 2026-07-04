@@ -1,0 +1,23 @@
+Machine Learning Engineer (NLP)
+
+We are looking for a Machine Learning Engineer with 3+ years of experience to join our AI team and build state-of-the-art NLP and semantic search systems.
+
+Responsibilities:
+- Design and deploy ML models for NLP: semantic search, text classification, recommendation systems.
+- Build embedding-based retrieval systems using Sentence Transformers and FAISS or ChromaDB.
+- Integrate ML models into production systems on AWS.
+- Optimize model performance and latency for real-time applications.
+
+Requirements:
+- Bachelor's degree in Computer Science (Master's preferred).
+- 3+ years of experience in machine learning or NLP.
+- Strong proficiency in Python, PyTorch, TensorFlow, or Scikit-learn.
+- Experience with Hugging Face Transformers, BERT, Sentence Transformers.
+- Experience with FAISS, ChromaDB, or other vector databases.
+- Familiarity with AWS, GCP, or Azure and Docker.
+- SQL, Pandas, NumPy experience.
+
+Nice to have:
+- LangChain, LLM, RAG experience.
+- FastAPI or Streamlit deployment experience.
+- MLOps and Kubernetes knowledge.

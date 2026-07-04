@@ -1,0 +1,345 @@
+Collecting fastapi>=0.115.0 (from -r requirements.txt (line 2))
+  Using cached fastapi-0.139.0-py3-none-any.whl.metadata (26 kB)
+Collecting uvicorn>=0.30.0 (from uvicorn[standard]>=0.30.0->-r requirements.txt (line 3))
+  Using cached uvicorn-0.49.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting python-multipart>=0.0.20 (from -r requirements.txt (line 4))
+  Using cached python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+Collecting python-dotenv>=1.0.1 (from -r requirements.txt (line 5))
+  Using cached python_dotenv-1.2.2-py3-none-any.whl.metadata (27 kB)
+Collecting orjson>=3.10.16 (from -r requirements.txt (line 6))
+  Using cached orjson-3.11.9-cp312-cp312-win_amd64.whl.metadata (43 kB)
+Collecting pydantic>=2.10.0 (from -r requirements.txt (line 9))
+  Using cached pydantic-2.13.4-py3-none-any.whl.metadata (109 kB)
+Collecting pydantic-settings>=2.6.0 (from -r requirements.txt (line 10))
+  Using cached pydantic_settings-2.14.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting sqlalchemy>=2.0.30 (from -r requirements.txt (line 13))
+  Using cached sqlalchemy-2.0.51-cp312-cp312-win_amd64.whl.metadata (9.8 kB)
+Collecting alembic>=1.13.0 (from -r requirements.txt (line 14))
+  Using cached alembic-1.18.5-py3-none-any.whl.metadata (7.2 kB)
+Collecting psycopg2-binary>=2.9.10 (from -r requirements.txt (line 15))
+  Using cached psycopg2_binary-2.9.12-cp312-cp312-win_amd64.whl.metadata (5.1 kB)
+Collecting redis>=5.2.1 (from -r requirements.txt (line 18))
+  Using cached redis-8.0.1-py3-none-any.whl.metadata (13 kB)
+Collecting sentence-transformers>=3.4.1 (from -r requirements.txt (line 21))
+  Using cached sentence_transformers-5.6.0-py3-none-any.whl.metadata (18 kB)
+Collecting transformers>=4.50.0 (from -r requirements.txt (line 22))
+  Using cached transformers-5.12.1-py3-none-any.whl.metadata (33 kB)
+Collecting torch>=2.7.0 (from -r requirements.txt (line 23))
+  Using cached torch-2.12.1-cp312-cp312-win_amd64.whl.metadata (31 kB)
+Collecting scikit-learn>=1.6.1 (from -r requirements.txt (line 24))
+  Using cached scikit_learn-1.9.0-cp312-cp312-win_amd64.whl.metadata (11 kB)
+Collecting numpy>=2.2.0 (from -r requirements.txt (line 25))
+  Using cached numpy-2.5.0-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+Collecting scipy>=1.15.0 (from -r requirements.txt (line 26))
+  Using cached scipy-1.18.0-cp312-cp312-win_amd64.whl.metadata (61 kB)
+Collecting chromadb==0.5.23 (from -r requirements.txt (line 29))
+  Using cached chromadb-0.5.23-py3-none-any.whl.metadata (6.8 kB)
+Collecting rank-bm25>=0.2.2 (from -r requirements.txt (line 32))
+  Using cached rank_bm25-0.2.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting openai>=1.68.2 (from -r requirements.txt (line 35))
+  Using cached openai-2.44.0-py3-none-any.whl.metadata (34 kB)
+Collecting tiktoken>=0.9.0 (from -r requirements.txt (line 36))
+  Using cached tiktoken-0.13.0-cp312-cp312-win_amd64.whl.metadata (6.8 kB)
+Collecting langchain>=0.3.25 (from -r requirements.txt (line 37))
+  Using cached langchain-1.3.11-py3-none-any.whl.metadata (6.0 kB)
+Collecting langchain-community>=0.3.25 (from -r requirements.txt (line 38))
+  Using cached langchain_community-0.4.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting langchain-text-splitters>=0.3.8 (from -r requirements.txt (line 39))
+  Using cached langchain_text_splitters-1.1.2-py3-none-any.whl.metadata (3.3 kB)
+Collecting PyMuPDF>=1.24.0 (from -r requirements.txt (line 42))
+  Using cached pymupdf-1.28.0-cp310-abi3-win_amd64.whl.metadata (26 kB)
+Collecting pdfplumber>=0.11.5 (from -r requirements.txt (line 43))
+  Using cached pdfplumber-0.11.10-py3-none-any.whl.metadata (43 kB)
+Collecting pypdf>=5.4.0 (from -r requirements.txt (line 44))
+  Using cached pypdf-6.14.2-py3-none-any.whl.metadata (7.2 kB)
+Collecting python-docx>=1.1.0 (from -r requirements.txt (line 45))
+  Using cached python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting spacy>=3.8.4 (from -r requirements.txt (line 48))
+  Using cached spacy-3.8.14-cp312-cp312-win_amd64.whl.metadata (28 kB)
+Collecting nltk>=3.9.1 (from -r requirements.txt (line 49))
+  Using cached nltk-3.9.4-py3-none-any.whl.metadata (3.2 kB)
+Collecting langdetect>=1.0.9 (from -r requirements.txt (line 50))
+  Using cached langdetect-1.0.9-py3-none-any.whl
+Collecting requests>=2.32.3 (from -r requirements.txt (line 53))
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting httpx>=0.28.1 (from -r requirements.txt (line 54))
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting tenacity>=9.0.0 (from -r requirements.txt (line 55))
+  Using cached tenacity-9.1.4-py3-none-any.whl.metadata (1.2 kB)
+Collecting prometheus-client>=0.21.1 (from -r requirements.txt (line 58))
+  Using cached prometheus_client-0.25.0-py3-none-any.whl.metadata (2.1 kB)
+Collecting python-json-logger>=3.3.0 (from -r requirements.txt (line 59))
+  Using cached python_json_logger-4.1.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting build>=1.0.3 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached build-1.5.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting chroma-hnswlib==0.7.6 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached chroma_hnswlib-0.7.6.tar.gz (32 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting posthog>=2.4.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached posthog-7.21.3-py3-none-any.whl.metadata (5.3 kB)
+Collecting typing_extensions>=4.5.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting onnxruntime>=1.14.1 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached onnxruntime-1.27.0-cp312-cp312-win_amd64.whl.metadata (5.6 kB)
+Collecting opentelemetry-api>=1.2.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached opentelemetry_api-1.43.0-py3-none-any.whl.metadata (1.4 kB)
+Collecting opentelemetry-exporter-otlp-proto-grpc>=1.2.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached opentelemetry_exporter_otlp_proto_grpc-1.43.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting opentelemetry-instrumentation-fastapi>=0.41b0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached opentelemetry_instrumentation_fastapi-0.64b0-py3-none-any.whl.metadata (2.2 kB)
+Collecting opentelemetry-sdk>=1.2.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached opentelemetry_sdk-1.43.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting tokenizers<=0.20.3,>=0.13.2 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached tokenizers-0.20.3-cp312-none-win_amd64.whl.metadata (6.9 kB)
+Collecting pypika>=0.48.9 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached pypika-0.51.1-py2.py3-none-any.whl.metadata (51 kB)
+Collecting tqdm>=4.65.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached tqdm-4.68.3-py3-none-any.whl.metadata (57 kB)
+Collecting overrides>=7.3.1 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached overrides-7.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting importlib-resources (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached importlib_resources-7.1.0-py3-none-any.whl.metadata (4.0 kB)
+Collecting grpcio>=1.58.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached grpcio-1.81.1-cp312-cp312-win_amd64.whl.metadata (3.8 kB)
+Collecting bcrypt>=4.0.1 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached bcrypt-5.0.0-cp39-abi3-win_amd64.whl.metadata (10 kB)
+Collecting typer>=0.9.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached typer-0.26.8-py3-none-any.whl.metadata (15 kB)
+Collecting kubernetes>=28.1.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached kubernetes-36.0.2-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting PyYAML>=6.0.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached pyyaml-6.0.3-cp312-cp312-win_amd64.whl.metadata (2.4 kB)
+Collecting mmh3>=4.0.1 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached mmh3-5.2.1-cp312-cp312-win_amd64.whl.metadata (15 kB)
+Collecting rich>=10.11.0 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting huggingface-hub<1.0,>=0.16.4 (from tokenizers<=0.20.3,>=0.13.2->chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached huggingface_hub-0.36.2-py3-none-any.whl.metadata (15 kB)
+Collecting filelock (from huggingface-hub<1.0,>=0.16.4->tokenizers<=0.20.3,>=0.13.2->chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached filelock-3.29.5-py3-none-any.whl.metadata (2.0 kB)
+Collecting fsspec>=2023.5.0 (from huggingface-hub<1.0,>=0.16.4->tokenizers<=0.20.3,>=0.13.2->chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached fsspec-2026.6.0-py3-none-any.whl.metadata (10 kB)
+Collecting packaging>=20.9 (from huggingface-hub<1.0,>=0.16.4->tokenizers<=0.20.3,>=0.13.2->chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting starlette>=0.46.0 (from fastapi>=0.115.0->-r requirements.txt (line 2))
+  Using cached starlette-1.3.1-py3-none-any.whl.metadata (6.4 kB)
+Collecting typing-inspection>=0.4.2 (from fastapi>=0.115.0->-r requirements.txt (line 2))
+  Using cached typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting annotated-doc>=0.0.2 (from fastapi>=0.115.0->-r requirements.txt (line 2))
+  Using cached annotated_doc-0.0.4-py3-none-any.whl.metadata (6.6 kB)
+Collecting click>=7.0 (from uvicorn>=0.30.0->uvicorn[standard]>=0.30.0->-r requirements.txt (line 3))
+  Using cached click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn>=0.30.0->uvicorn[standard]>=0.30.0->-r requirements.txt (line 3))
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.10.0->-r requirements.txt (line 9))
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.46.4 (from pydantic>=2.10.0->-r requirements.txt (line 9))
+  Using cached pydantic_core-2.46.4-cp312-cp312-win_amd64.whl.metadata (6.7 kB)
+Collecting greenlet>=1 (from sqlalchemy>=2.0.30->-r requirements.txt (line 13))
+  Using cached greenlet-3.5.3-cp312-cp312-win_amd64.whl.metadata (3.9 kB)
+Collecting Mako (from alembic>=1.13.0->-r requirements.txt (line 14))
+  Using cached mako-1.3.12-py3-none-any.whl.metadata (2.9 kB)
+INFO: pip is looking at multiple versions of transformers to determine which version is compatible with other requirements. This could take a while.
+Collecting transformers>=4.50.0 (from -r requirements.txt (line 22))
+  Using cached transformers-5.12.0-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.11.0-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.10.4-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.10.2-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.10.1-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.9.0-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.8.1-py3-none-any.whl.metadata (33 kB)
+INFO: pip is still looking at multiple versions of transformers to determine which version is compatible with other requirements. This could take a while.
+  Using cached transformers-5.8.0-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.7.0-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.6.2-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.6.1-py3-none-any.whl.metadata (33 kB)
+  Using cached transformers-5.6.0-py3-none-any.whl.metadata (33 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+  Using cached transformers-5.5.4-py3-none-any.whl.metadata (32 kB)
+  Using cached transformers-5.5.3-py3-none-any.whl.metadata (32 kB)
+  Using cached transformers-5.5.2-py3-none-any.whl.metadata (32 kB)
+  Using cached transformers-5.5.1-py3-none-any.whl.metadata (32 kB)
+  Using cached transformers-5.5.0-py3-none-any.whl.metadata (32 kB)
+  Using cached transformers-5.4.0-py3-none-any.whl.metadata (32 kB)
+  Using cached transformers-5.3.0-py3-none-any.whl.metadata (32 kB)
+  Using cached transformers-5.2.0-py3-none-any.whl.metadata (32 kB)
+  Using cached transformers-5.1.0-py3-none-any.whl.metadata (31 kB)
+  Using cached transformers-5.0.0-py3-none-any.whl.metadata (37 kB)
+  Using cached transformers-4.57.6-py3-none-any.whl.metadata (43 kB)
+Collecting regex!=2019.12.17 (from transformers>=4.50.0->-r requirements.txt (line 22))
+  Using cached regex-2026.6.28-cp312-cp312-win_amd64.whl.metadata (41 kB)
+Collecting transformers>=4.50.0 (from -r requirements.txt (line 22))
+  Using cached transformers-4.57.5-py3-none-any.whl.metadata (43 kB)
+  Using cached transformers-4.57.4-py3-none-any.whl.metadata (43 kB)
+  Using cached transformers-4.57.3-py3-none-any.whl.metadata (43 kB)
+  Using cached transformers-4.57.2-py3-none-any.whl.metadata (43 kB)
+  Using cached transformers-4.57.1-py3-none-any.whl.metadata (43 kB)
+  Using cached transformers-4.56.2-py3-none-any.whl.metadata (40 kB)
+  Using cached transformers-4.56.1-py3-none-any.whl.metadata (42 kB)
+  Using cached transformers-4.56.0-py3-none-any.whl.metadata (40 kB)
+  Using cached transformers-4.55.4-py3-none-any.whl.metadata (41 kB)
+  Using cached transformers-4.55.3-py3-none-any.whl.metadata (41 kB)
+  Using cached transformers-4.55.2-py3-none-any.whl.metadata (41 kB)
+  Using cached transformers-4.55.1-py3-none-any.whl.metadata (41 kB)
+  Using cached transformers-4.55.0-py3-none-any.whl.metadata (39 kB)
+  Using cached transformers-4.54.1-py3-none-any.whl.metadata (41 kB)
+  Using cached transformers-4.54.0-py3-none-any.whl.metadata (41 kB)
+  Using cached transformers-4.53.3-py3-none-any.whl.metadata (40 kB)
+  Using cached transformers-4.53.2-py3-none-any.whl.metadata (40 kB)
+  Using cached transformers-4.53.1-py3-none-any.whl.metadata (40 kB)
+  Using cached transformers-4.53.0-py3-none-any.whl.metadata (39 kB)
+  Using cached transformers-4.52.4-py3-none-any.whl.metadata (38 kB)
+  Using cached transformers-4.52.3-py3-none-any.whl.metadata (40 kB)
+  Using cached transformers-4.52.2-py3-none-any.whl.metadata (40 kB)
+  Using cached transformers-4.52.1-py3-none-any.whl.metadata (38 kB)
+  Using cached transformers-4.51.3-py3-none-any.whl.metadata (38 kB)
+  Using cached transformers-4.51.2-py3-none-any.whl.metadata (38 kB)
+  Using cached transformers-4.51.1-py3-none-any.whl.metadata (38 kB)
+  Using cached transformers-4.51.0-py3-none-any.whl.metadata (38 kB)
+  Using cached transformers-4.50.3-py3-none-any.whl.metadata (39 kB)
+  Using cached transformers-4.50.2-py3-none-any.whl.metadata (39 kB)
+  Using cached transformers-4.50.1-py3-none-any.whl.metadata (39 kB)
+  Using cached transformers-4.50.0-py3-none-any.whl.metadata (39 kB)
+Collecting sentence-transformers>=3.4.1 (from -r requirements.txt (line 21))
+  Using cached sentence_transformers-5.5.1-py3-none-any.whl.metadata (18 kB)
+Collecting tokenizers<=0.20.3,>=0.13.2 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached tokenizers-0.20.2-cp312-none-win_amd64.whl.metadata (6.9 kB)
+  Using cached tokenizers-0.20.1-cp312-none-win_amd64.whl.metadata (6.9 kB)
+  Using cached tokenizers-0.20.0-cp312-none-win_amd64.whl.metadata (6.9 kB)
+  Using cached tokenizers-0.19.1-cp312-none-win_amd64.whl.metadata (6.9 kB)
+  Using cached tokenizers-0.19.0-cp312-none-win_amd64.whl.metadata (6.9 kB)
+  Using cached tokenizers-0.15.2-cp312-none-win_amd64.whl.metadata (6.8 kB)
+  Using cached tokenizers-0.15.1-cp312-none-win_amd64.whl.metadata (6.8 kB)
+  Using cached tokenizers-0.15.0.tar.gz (318 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+  Using cached tokenizers-0.14.1.tar.gz (317 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting huggingface-hub<0.18,>=0.16.4 (from tokenizers<=0.20.3,>=0.13.2->chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached huggingface_hub-0.17.3-py3-none-any.whl.metadata (13 kB)
+Collecting tokenizers<=0.20.3,>=0.13.2 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached tokenizers-0.14.0.tar.gz (286 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting huggingface-hub<0.17,>=0.16.4 (from tokenizers<=0.20.3,>=0.13.2->chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached huggingface_hub-0.16.4-py3-none-any.whl.metadata (12 kB)
+Collecting tokenizers<=0.20.3,>=0.13.2 (from chromadb==0.5.23->-r requirements.txt (line 29))
+  Using cached tokenizers-0.13.3.tar.gz (314 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting huggingface-hub<2.0,>=1.5.0 (from transformers>=4.50.0->-r requirements.txt (line 22))
+  Using cached huggingface_hub-1.22.0-py3-none-any.whl.metadata (14 kB)
+Collecting alembic>=1.13.0 (from -r requirements.txt (line 14))
+  Using cached alembic-1.18.4-py3-none-any.whl.metadata (7.2 kB)
+Collecting sqlalchemy>=2.0.30 (from -r requirements.txt (line 13))
+  Using cached sqlalchemy-2.0.50-cp312-cp312-win_amd64.whl.metadata (9.8 kB)
+Collecting pydantic-settings>=2.6.0 (from -r requirements.txt (line 10))
+  Using cached pydantic_settings-2.14.1-py3-none-any.whl.metadata (3.4 kB)
+Collecting pydantic>=2.10.0 (from -r requirements.txt (line 9))
+  Using cached pydantic-2.13.3-py3-none-any.whl.metadata (108 kB)
+Collecting orjson>=3.10.16 (from -r requirements.txt (line 6))
+  Using cached orjson-3.11.8-cp312-cp312-win_amd64.whl.metadata (43 kB)
+Collecting python-dotenv>=1.0.1 (from -r requirements.txt (line 5))
+  Using cached python_dotenv-1.2.1-py3-none-any.whl.metadata (25 kB)
+Collecting python-multipart>=0.0.20 (from -r requirements.txt (line 4))
+  Using cached python_multipart-0.0.31-py3-none-any.whl.metadata (2.1 kB)
+Collecting uvicorn>=0.30.0 (from uvicorn[standard]>=0.30.0->-r requirements.txt (line 3))
+  Using cached uvicorn-0.48.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting fastapi>=0.115.0 (from -r requirements.txt (line 2))
+  Using cached fastapi-0.138.2-py3-none-any.whl.metadata (26 kB)
+ERROR: Cannot install -r requirements.txt (line 22) and -r requirements.txt (line 29) because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    chromadb 0.5.23 depends on tokenizers<=0.20.3 and >=0.13.2
+    transformers 5.12.1 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.12.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.11.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.10.4 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.10.2 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.10.1 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.9.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.8.1 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.8.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.7.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.6.2 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.6.1 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.6.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.5.4 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.5.3 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.5.2 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.5.1 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.5.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.4.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.3.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.2.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.1.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 5.0.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.57.6 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.57.5 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.57.4 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.57.3 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.57.2 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.57.1 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.56.2 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.56.1 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.56.0 depends on tokenizers<=0.23.0 and >=0.22.0
+    transformers 4.55.4 depends on tokenizers<0.22 and >=0.21
+    transformers 4.55.3 depends on tokenizers<0.22 and >=0.21
+    transformers 4.55.2 depends on tokenizers<0.22 and >=0.21
+    transformers 4.55.1 depends on tokenizers<0.22 and >=0.21
+    transformers 4.55.0 depends on tokenizers<0.22 and >=0.21
+    transformers 4.54.1 depends on tokenizers<0.22 and >=0.21
+    transformers 4.54.0 depends on tokenizers<0.22 and >=0.21
+    transformers 4.53.3 depends on tokenizers<0.22 and >=0.21
+    transformers 4.53.2 depends on tokenizers<0.22 and >=0.21
+    transformers 4.53.1 depends on tokenizers<0.22 and >=0.21
+    transformers 4.53.0 depends on tokenizers<0.22 and >=0.21
+    transformers 4.52.4 depends on tokenizers<0.22 and >=0.21
+    transformers 4.52.3 depends on tokenizers<0.22 and >=0.21
+    transformers 4.52.2 depends on tokenizers<0.22 and >=0.21
+    transformers 4.52.1 depends on tokenizers<0.22 and >=0.21
+    transformers 4.51.3 depends on tokenizers<0.22 and >=0.21
+    transformers 4.51.2 depends on tokenizers<0.22 and >=0.21
+    transformers 4.51.1 depends on tokenizers<0.22 and >=0.21
+    transformers 4.51.0 depends on tokenizers<0.22 and >=0.21
+    transformers 4.50.3 depends on tokenizers<0.22 and >=0.21
+    transformers 4.50.2 depends on tokenizers<0.22 and >=0.21
+    transformers 4.50.1 depends on tokenizers<0.22 and >=0.21
+    transformers 4.50.0 depends on tokenizers<0.22 and >=0.21
+
+Additionally, some packages in these conflicts have no matching distributions available for your environment:
+    tokenizers
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts

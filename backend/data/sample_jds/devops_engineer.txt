@@ -1,0 +1,18 @@
+DevOps Engineer
+
+We are hiring a DevOps Engineer with minimum 4 years of experience to manage and scale our cloud infrastructure.
+
+Responsibilities:
+- Manage AWS cloud infrastructure (EC2, S3, Lambda).
+- Build and maintain CI/CD pipelines using Jenkins.
+- Infrastructure as code using Terraform and Ansible.
+- Manage Kubernetes clusters and Docker deployments.
+- Monitor system performance and ensure high availability.
+
+Requirements:
+- Bachelor's degree in Computer Science or related field.
+- Minimum 4 years of experience in DevOps or SRE.
+- Strong experience with AWS, Docker, Kubernetes.
+- Hands-on Terraform, Ansible, Jenkins experience.
+- Linux administration and Bash scripting.
+- Python for automation.

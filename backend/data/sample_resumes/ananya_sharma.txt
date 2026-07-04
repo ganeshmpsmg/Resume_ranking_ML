@@ -1,0 +1,31 @@
+Ananya Sharma
+ananya.sharma@example.com | +91-9876543210 | linkedin.com/in/ananyasharma | github.com/ananyasharma
+
+SUMMARY
+Machine Learning Engineer with 4 years of experience in NLP and deep learning systems for production. Expert in transformer-based semantic search and recommendation systems.
+
+EDUCATION
+M.Tech in Computer Science, IIT Bombay, 2020
+B.Tech in Computer Science, NIT Surathkal, 2018
+
+EXPERIENCE
+Machine Learning Engineer, Flipkart, Bangalore (Jul 2021 - Present)
+- Built semantic search engine using Sentence-BERT and FAISS, improving retrieval by 23%.
+- Deployed NLP models with PyTorch and Hugging Face Transformers serving 2M+ req/day on AWS Lambda.
+- Led team of 3 engineers building recommendation system using collaborative filtering and deep learning.
+
+Data Scientist, Mu Sigma, Bangalore (Jun 2019 - Jun 2021)
+- Developed customer churn prediction using Scikit-learn and XGBoost, improving accuracy by 15%.
+- Built ETL pipelines with Pandas and SQL processing 10M+ records daily.
+
+SKILLS
+Python, Java, SQL, Machine Learning, Deep Learning, NLP, TensorFlow, PyTorch, Scikit-learn,
+Hugging Face, Transformers, BERT, Sentence Transformers, FAISS, AWS, Docker, Kubernetes, Git,
+MongoDB, PostgreSQL, Pandas, NumPy, Matplotlib, Streamlit, FastAPI, LangChain
+
+PROJECTS
+Resume Ranking System: End-to-end system using Sentence-BERT and FAISS with Streamlit dashboard for ranking 100+ resumes in seconds.
+Chatbot: GPT-based customer support bot using LangChain and OpenAI, reducing resolution time by 30%.
+
+CERTIFICATIONS
+AWS Certified Machine Learning – Specialty | Deep Learning Specialization, Coursera
